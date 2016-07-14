@@ -106,6 +106,9 @@ Example:
     │   └── hellopath
     │       └── {id}.js
     ├── package.json
+    ├── security
+    │   ├── hello_Oauth2.js
+    │   └── hello_api_key.js
     ├── server.js
     └── tests
         └── hellopath
@@ -145,6 +148,7 @@ By default [Request Mock generator](https://github.com/subeeshcbabu/swagmock#req
 - `--apiPath` - specify the path to the swagger document.
 - `--handlerPath` - specify the path to generate the handler files. By default `handlers` directory.
 - `--dataPath` - specify the path to generate the data files. By default `data` directory.
+- `--securityPath` - specify the path to generate the security authorize files. By default `security` directory.
 - `--testPath` - specify the path to generate the unit test files. By default `tests` directory.
 - `--skip-npm-install` - To skip the default `npm install` on the generated project.
 
